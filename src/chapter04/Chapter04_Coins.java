@@ -7,8 +7,8 @@ package chapter04;
  */
 public class Chapter04_Coins {
     public static void main(String[] args) {
-        int[] arr = {5, 10, 6, 1};
-        int aim = 20;
+        int[] arr = {1, 5, 10, 20, 50, 100};
+        int aim = 5000;
         int res = coins3(arr, aim);
         System.out.println(res);
     }
