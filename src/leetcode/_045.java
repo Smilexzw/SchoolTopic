@@ -25,7 +25,7 @@ import java.util.Scanner;
  */
 public class _045 {
     public static void main(String[] args) {
-        int[] arr = {2, 3, 1, 1, 4};
+        int[] arr = {2, 3, 1, 1, 4, 1};
         int jump = jump2(arr);
         System.out.println(jump);
     }
