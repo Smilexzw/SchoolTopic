@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * @author: xuzhangwang
  */
-public class 网易_循环数比较 {
+public class 爱奇艺_循环数比较 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String x1 = sc.next();
