@@ -58,9 +58,6 @@ public class 拼多多_最大乘机 {
                 max3 = t;
             }
         }
-
-        System.out.println(max1 + " \t" + max2 + "\t" + max3);
-        System.out.println(min1 + "\t" + min2);
         long res = Math.max((long) max1 * max2 * max3, (long) max1 * min1 * min2);
         System.out.println(res);
     }

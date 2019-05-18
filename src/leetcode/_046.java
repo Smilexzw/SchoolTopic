@@ -17,21 +17,43 @@ import java.util.List;
  */
 public class _046 {
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3};
+        int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        long s1 = System.currentTimeMillis();
         List<List<Integer>> permute = permute(nums);
-        for (List<Integer> list : permute) {
-            for (Integer integer : list) {
-                System.out.print(integer + " ");
-            }
-            System.out.println();
-        }
+        long e1 = System.currentTimeMillis();
+        System.out.println(e1 - s1);
+
+        long s2 = System.currentTimeMillis();
+        List<List<Integer>> permute1 = permute1(nums);
+        long e2 = System.currentTimeMillis();
+        System.out.println(e2 - s2);
     }
 
     public static List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         if (nums == null || nums.length == 0) return res;
+        helper(res, new ArrayList<>(), nums);
+        return res;
+    }
+
+    public static List<List<Integer>> permute1(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (nums == null || nums.length == 0) return res;
         dfs(nums, 0, res);
         return res;
+    }
+
+    private static void helper(List<List<Integer>> res, List<Integer> list, int[] nums) {
+        if (list.size() == nums.length) {
+            res.add(new ArrayList<>(list));
+            return;
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if (list.contains(nums[i])) continue;
+            list.add(nums[i]);
+            helper(res, list, nums);
+            list.remove(list.size() - 1);
+        }
     }
 
     /**

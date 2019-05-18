@@ -15,13 +15,13 @@ public class 网易_最大奇约数 {
 
     public static long getSum(long n) {
         long sum = 0;
-        while (n!=0) {
-            if (n%2==0) {
-                sum += (n*n)>>2;
-                n = n>>1;
+        while (n != 0) {
+            if (n % 2 == 0) {
+                sum += (n * n) >> 2;
+                n = n >> 1;
             } else {
-                sum += ((n+1)*(n+1))>>2;
-                n = n>>1;
+                sum += ((n + 1) * (n + 1)) >> 2;
+                n = n >> 1;
             }
         }
         return sum;

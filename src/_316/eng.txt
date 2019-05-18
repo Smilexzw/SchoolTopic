@@ -1,0 +1,326 @@
+Removal from the list may be done lazily but must be completed before any re-use of the inode.
+Additions to the list must be stable before reclaiming journal space for the final unlink but
+otherwise may be delayed long enough to avoid needing the write at all if the file is quickly
+closed. Addition and removal involve only a single write to update the preceding pointer to the
+following inode.
+Change of Directory Offset
+Any time a directory compaction moves an entry, a journal entry must be created that describes
+the old and new locations of the entry. The kernel does not know at the time of the move
+whether a remove will follow it, so currently all offset changes are journaled. Without this
+information, fsck would be unable to disambiguate multiple revisions of the same directory
+block.
+Block Allocation and Free
+When performing either block allocation or free, whether it is a fragment, indirect block,
+directory block, direct block, or extended attributes, the record is the same. The inode number
+of the file and the offset of the block within the file are recorded using negative offsets for
+indirect blocks and extents. Additionally, the disk block address and number of fragments are
+included in the journal record. The journal entry must be written to disk before any allocation or
+free.
+When freeing an indirect block, only the root of the indirect block tree is logged. Thus, for
+truncation we need a maximum of 15 journal entries, 12 for direct blocks and 3 for indirect
+blocks. These 15 journal entries allow us to free a large amount of space with a minimum of
+journaling overhead. During recovery, fsck will follow indirect blocks and free any descendants
+including other indirect blocks. For this algorithm to work, the contents of the indirect block
+must remain valid until the journal record is free so that user data is not confused with indirect
+block pointers.
+Additional Requirements of Journaling
+Some operations that had not previously required tracking under soft updates need to be
+tracked when journaling is introduced. This subsection describes these new requirements.
+Cylinder-Group Rollbacks
+Soft updates previously did not require any rollbacks of cylinder groups as they were always the
+first or last write in a group of changes. When a block or inode has been allocated but its journal
+577
+record has not yet been written to disk, it is not safe to write the updated bitmaps and associated
+allocation information. The routines that write blocks with bmsafemap dependencies now
+rollback any allocations with unwritten journal operations.
+Inode Rollbacks
+The inode link count must be rolled back to the link count as it existed before any unwritten
+journal entries. Allowing it to grow beyond this count would not cause filesystem corruption but
+it would prohibit the journal recovery from adjusting the link count properly. Soft updates
+already prevent the link count from decreasing before the directory entry is removed as a
+premature decrement could cause filesystem corruption.
+When an unlinked file has been closed, its inode cannot be returned to the inode freelist until its
+zeroed-out block pointers have been written to disk so that its blocks can be freed and it has
+been removed from the on-disk list of unlinked files. The unlinked-file inode is not completely
+removed from the list of unlinked files until the next pointer of the inode that precedes it on the
+list has been updated on disk to point to the inode that follows it on the list. If the unlinked-file
+inode is the first inode on the list of unlinked files, then it is not completely removed from the
+list of unlinked files until the head-of-unlinked-files pointer in the superblock has been updated
+on disk to point to the inode that follows it on the list.
+Reclaiming Journal Space
+To reclaim journal space from previously written records, the kernel must know that the
+operation the journal record describes is stable on disk. This requirement means that when a
+new file is created, the journal record cannot be freed until writes are completed for a cylinder
+group bitmap, an inode, a directory block, a directory inode, and possibly some number of
+indirect blocks. When a new block is allocated, the journal record cannot be freed until writes
+are completed for the new block pointer in the inode or indirect block, the cylinder group
+bitmap, and the block itself. Block pointers within indirect blocks are not stable until all parent
+indirect blocks are fully reachable on disk via the inode indirect block pointers. To simplify
+fulfillment of these requirements, the dependencies that describe these operations carry
+pointers to the oldest segment structure in the journal containing journal entries that describe
+outstanding operations.
+Some operations may be described by multiple entries. For example, when making a new
+directory, its addition creates three new names. Each of these names is associated with a
+reference count on the inode to which the name refers. When one of these dependencies is
+satisfied, it may pass its journal entry reference to another dependency if another operation on
+which the journal entry depends is not yet complete. If the operation is complete, the final
+578
+reference on the journal record is released. When all references to journal records in a journal
+segment are released, its space is reclaimed and the oldest valid segment sequence number is
+adjusted. We can only release the oldest free journal segment, since the journal is treated as a
+circular queue.
+Handling a Full Journal
+If the journal ever becomes full, we must prevent any new journal entries from being created
+until more space becomes available from the retirement of the oldest valid entries. An effective
+way to stop the creation of new journal records is to suspend the filesystem using the
+mechanism in place for taking snapshots. Once suspended, existing operations on the filesystem
+are permitted to complete, but new operations that wish to modify the filesystem are put to
+sleep until the suspension is lifted.
+We do a check for journal space before each operation that will change a link count or allocate a
+block. If we find that the journal is approaching a full condition, we suspend the filesystem and
+expedite the progress on the soft-updates work-list processing to speed the rate at which journal
+entries are retired. As the operation that did the check has already started, it is permitted to
+finish, but future operations are blocked. Thus, operations must be suspended while there is still
+enough journal space to complete operations already in progress. When enough journal entries
+have been freed, the filesystem suspension is lifted and normal operations resume.
+In practice, we had to create a minimal-size journal (4 Mbyte) and run scripts designed to create
+huge numbers of link-count changes, block allocations, and block frees to trigger the journal-full
+condition. Even under these tests, the filesystem suspensions were infrequent and brief, lasting
+under a second.
+The Recovery Process
+This subsection describes the use of the journal by fsck to clean up the filesystem after a crash.
+Scanning the Journal
+To perform recovery, the fsck program must first scan the journal from start to end to discover
+the oldest valid sequence number. We contemplated keeping journal head and tail pointers,
+however, that would require extra writes to the superblock area. Because the journal is small,
+the extra time spent scanning it to identify the head and tail of the valid journal seemed a
+reasonable tradeoff to reduce the run-time cost of maintaining the journal head and tail pointers.
+As a result, the fsck program must discover the first segment containing a still-valid sequence
+number and work from there. Journal records are then resolved in order. Journal records are
+579
+marked with a timestamp that must match the filesystem mount time as well as a CRC to protect
+the validity of the contents.
+Adjusting Link Counts
+For each journal record recording a link increase, fsck needs to examine the directory at the
+offset provided and see whether the directory entry for the recorded inode number exists on disk.
+If it does not exist, but the inode link count was increased, then the recorded link count needs to
+be decremented.
+For each journal record recording a link decrease, fsck needs to examine the directory at the
+offset provided and see whether the directory entry for the recorded inode number exists on disk.
+If it has been deleted on disk, but the inode link count has not been decremented, then the
+recorded link count needs to be decremented.
+Compaction of directory offsets for entries that are being tracked complicates the link
+adjustment scheme presented above. Since directory blocks are not written synchronously, fsck
+must look up each directory entry in all its possible locations.
+When an inode is added and removed from a directory multiple times, fsck is not able to assess
+the link count correctly given the algorithm presented above. The chosen solution is to
+preprocess the journal and link all entries related to the same inode together. In this way, all
+operations not known to be committed to the disk can be examined concurrently to determine
+how many links should exist relative to the known stable count that existed before the first
+journal entry. Duplicate records that occur when an inode is added and deleted multiple times at
+the same offset are discarded, resulting in a coherent count.
+Updating the Allocated Inode Map
+Once the link counts have been adjusted, fsck must free any inodes whose link count has fallen
+to zero. In addition, fsck must free any inodes that were unlinked but still in use at the time that
+the system crashed. The head of the list of unreferenced inode is in the superblock as described
+earlier in this section. The fsck program must traverse this list of unlinked inodes and free
+them.
+The first step in freeing an inode is to add all its blocks to the list of blocks that need to be freed.
+Next, the inode needs to be zeroed to show that it is not in use. Finally, the inode bitmap in its
+cylinder group must be updated to reflect that the inode is available and all the appropriate
+filesystem statistics updated to reflect the inode’s availability.
+Updating the Allocated Block Map
+580
+Once the journal has been scanned, it provides a list of blocks that were intended to be freed.
+The journal entry lists the inode from which the block was to be freed. For recovery, fsck
+processes each free record by checking to see if the block is still claimed by its associated inode.
+If it finds that the block is no longer claimed, it is freed.
+For each block that is freed, either by the deallocation of an inode or through the identification
+process described above, the block bitmap in its cylinder group must be updated to reflect that it
+is available and all the appropriate filesystem statistics updated to reflect its availability. When a
+fragment is freed, the fragment availability statistics must also be updated.
+Performance
+Journaling adds extra running time and memory allocations to the traditional soft-updates
+requirements as well as additional I/O operations to write the journal. The overhead of the extra
+running time and memory allocations was immeasurable in the benchmarks that we ran. The
+extra I/O was mostly evident in the increased delay for individual operations to complete.
+Operation completion time is usually only evident to an application when it does an fsync
+system call that causes it to wait for the file to reach the disk. Otherwise, the extra I/O to the
+journal only becomes evident in benchmarks that are limited by the filesystem’s I/O bandwidth
+before journaling is enabled. In summary, a system running with journaled soft updates will
+never run faster than one running soft updates without journaling. So, systems with small
+filesystems such as an embedded system will usually want to run soft updates without
+journaling and take the time to run fsck after system crashes.
+The primary purpose of the journaling project was to eliminate long filesystem check times. A
+40 Tbyte volume may take an entire day and a considerable amount of memory to check. We
+have run several scenarios to understand and validate the recovery time.
+A typical operation for developers is to run a parallel buildworld. Crash recovery from this case
+demonstrates time to recover from moderate write workload. A 250 Gbyte disk was filled to 80
+percent with copies of the FreeBSD source tree. One copy was selected at random and an 8-way
+buildworld proceeded for 10 minutes before the box was reset. Recovery from the journal took
+0.9 seconds. An additional run with traditional fsck was used to verify the safe recovery of the
+filesystem. The fsck took about 27 minutes, or 1800 times as long.
+A testing volunteer with a 92-percent full 11 Tbyte volume spanning 14 drives on a 3ware RAID
+controller generated hundreds of megabytes of dirty data by writing random length files in
+parallel before resetting the machine. The resulting recovery operation took less than one
+minute to complete. A normal fsck run takes about 10 hours on this filesystem.
+581
+Future Work
+This subsection describes some areas we have not yet explored that may give further
+performance improvements to our implementation.
+Rollback of Directory Deletions
+Doing a rollback of a directory addition is easy. The new directory entry has its inode number set
+to zero to show that it is not really allocated. However, rollback of directory deletions is much
+more difficult as the space may have been claimed by a new allocation. There are times when
+being able to roll back a directory deletion would be convenient. For example, when a file is
+renamed, a directory rollback could be used to prevent the removal of an old name before a new
+name reaches the disk. Here, we have considered using a distinguished inode number that the
+filesystem would recognize internally as being in use, but which would not be returned to the
+user application. However, at present we cannot rollback deletes, which requires any delete
+journaling to be written to disk before the writing of affected directory blocks.
+Truncate and Weaker Guarantees
+As a potential optimization, the truncate system call instead may choose to record the intended
+file size and operate more lazily, relying on the log to recover any partially completed operations
+correctly. This approach also allows us to perform partial truncations asynchronously. Further,
+the journal allows for the weakening of other soft dependency guarantees although we have not
+yet fully explored these reduced guarantees and do not know if they provide any real benefit.
+Tracking File-Removal Dependencies
+This subsection gives a short example describing the dependencies that track the removal of a
+file when using journaled soft updates. These five ordering constraints must be maintained:
+1. The journal must record the location in the directory that has the name to be deleted and the
+inode number associated with the name.
+2. The filename in the on-disk copy of the directory must be deleted.
+3. The journal must record the blocks to be deleted. The inode describing the file must be
+deallocated by zeroing out its on-disk dinode. The writing of the journal entry must precede the
+writing of the zeroed-out on-disk inode.
+582
+4. The blocks formerly referenced by the inode for the file must be released to the free-space
+bitmap, and the inode must be released to the free-inode bitmap.
+5. The journal must record the successful completion of the removal.
+These five constraints are maintained by soft updates as follows:
+1. The buffer containing the journal entry with the name and inode number to be deleted adds a
+dependency structure to start the file deletion.
+2. Some time in the next 30 seconds after step 1, the kernel will decide to write the journal
+buffer. When notified that the journal entry has been written, the block of the directory
+containing the name to be deleted is read into a kernel buffer. The entry is deleted by changing
+the entry that precedes it to point to the entry that follows it (see Section 9.3). Before releasing
+the buffer, a set of dependencies must be constructed, as shown in Figure 9.26. If this deletion is
+the first dependency for the directory block, it needs to have a pagedep structure allocated that
+is linked onto the dependency list for the buffer. Next, a dirrem structure is allocated that
+records the inode number of the entry being deleted. The dirrem structure is linked onto the
+dirrem list of the pagedep structure for the directory block. The buffer is then marked dirty and
+it is unlocked and released.
+3. Some time in the next 30 seconds after step 2, the kernel will decide to write the dirty
+directory buffer. When the write completes, the pagedep associated with the buffer is passed to
+soft updates for processing. One processing step is to handle each of the dirrem entries. Each
+dirrem entry causes the inode formerly referenced by the directory to have its reference count
+decremented by one. If the reference count drops to zero (meaning that the last name for the file
+was removed), then the inode must be deallocated and freed. Before zeroing out the contents of
+the on-disk dinode, its list of allocated blocks must be saved in a freeblks structure and
+information needed to free the inode must be saved in a freefile structure. A journal entry
+containing the freeblks and freefile information must be added to the journal buffer. The block
+of the filesystem containing the dinode to be freed is read into a kernel buffer, as shown in
+Figure 9.20. The part of the buffer containing the dinode is zeroed out. If the deallocation is the
+first dependency for the dinode, it must have an inodedep structure allocated that is linked onto
+the dependency list for the buffer. The freeblks and freefile structures are linked onto the buffer
+wait list of the inodedep structure. A reference to the journal entry is also added to the inodedep.
+The buffer is then marked dirty and it is unlocked and released. The dirrem structure is freed as
+is the pagedep structure if it is no longer tracking any dependencies.
+4. Some time in the next 30 seconds after step 3, the kernel will decide to write the buffer
+containing the zeroed-out dinode. If the buffer containing the journal dependency has not yet
+583
+been written, the zeroed-out dinode is replaced with its original contents and the write is
+allowed to proceed. When the write completes, the zeroed-out dinode is put back into the buffer
+and the buffer marked as still dirty (needing to be written). When a write on the buffer finds that
+the journal entry has been written, the write of the zeroed-out dinode is allowed to proceed.
+When the write completes, the inodedep associated with the buffer is passed to soft updates for
+processing. One processing step is to handle each of the buffer wait entries. The handling of the
+freeblks entry causes all its listed blocks to be marked free in the appropriate cylinder-group
+bitmaps. The handling of the freefile entry causes the deleted inode to be marked free in the
+appropriate cylinder-group bitmap. The freeblks and freefile structures are freed as is the
+inodedep structure if it is no longer tracking any dependencies. A journal dependency is added
+to the buffer containing the bitmaps.
+5. Some time in the next 30 seconds, the kernel will decide to write the buffer containing the
+bitmaps. When the write completes, the journal dependency is processed that writes an entry to
+the journal to show that the block and inode release has been completed.
+The file has now been completely removed and ceases to be tracked by soft updates.
+9.9 The Local Filestore
+The next two sections of this chapter describe the organization and management of data on
+storage media. Historically, FreeBSD provided three different filestore managers: the traditional
+Berkeley Fast Filesystem (FFS), the Log-Structured Filesystem, and the Memory-Based
+Filesystem. These storage managers shared the same code for all the filesystem naming
+semantics and differed only in the management of their data on storage media. The
+Log-Structured Filesystem file-store manager has been replaced by ZFS described in Chapter 10.
+The Memory-Based Filesystem filestore manager has been replaced by an implementation
+optimized for operating in virtual memory.
+Overview of the Filestore
+The FFS filestore was designed at a time when file caches were small and thus files needed to be
+read from the disk often. It is willing to do extra disk seeks while writing to place files likely to
+be accessed together in the same general location on the disk. This approach minimizes disk
+seeks needed to read these files. By contrast, ZFS was designed at a time when file caches were
+large and thus most file reads would not need to access the disk. Hence, ZFS optimizes its write
+speed by grouping blocks in the order in which they are written. ZFS is willing to accept more
+disk seeks to read files on the rare occasions when they are not in the cache.
+584
+The operations defined for doing the datastore filesystem operations are shown in Table 9.3.
+These operators are fewer and semantically simpler than are those used for managing the
+namespace.
+Table 9.3 Datastore filesystem operations.
+There are two operators for allocating and freeing objects. The valloc operator creates a new
+object. The identity of the object is a number returned by the operator. The mapping of this
+number to a name is the responsibility of the name-space code. An object is freed by the vfree
+operator. The object to be freed is identified by only its number.
+The attributes of an object are changed by the update operator. This layer performs no
+interpretation of these attributes; they are simply fixed-size auxiliary data stored outside the
+main data area of the object. They are typically file attributes, such as the owner, group,
+permissions, and so on. Note that the extended attribute space is updated using the read and
+write interface as that interface is already prepared to read and write arbitrary length data to
+and from user-level processes.
+There are five operators for manipulating existing objects. The vget operator retrieves an
+existing object from the filestore. The object is identified by its number and must have been
+created previously by valloc. The read operator copies data from an object to a location
+described by a uio structure. The blkatoff operator is similar to the read operator, except that
+the blkatoff operator simply returns a pointer to a kernel memory buffer with the requested data
+instead of copying the data. This operator is designed to increase the efficiency of operations
+where the namespace code interprets the contents of an object (i.e., directories) instead of just
+returning the contents to a user process. The write operator copies data to an object from a
+location described by a uio structure. The fsync operator requests that all data associated with
+the object be moved to stable storage (usually by writing them all to disk). There is no need for
+an analog of blkatoff for writing, as the kernel can simply modify a buffer that it received from
+blkatoff, mark that buffer as dirty, and then perform an fsync operation to have the buffer
+written back.
+585
+The final datastore operation is truncate. This operation changes the amount of space
+associated with an object. Historically, it could be used only to decrease the size of an object. In
+FreeBSD, it can be used both to increase and decrease the size of an object. When the size of a
+file is increased, a hole in the file is created. Usually, no additional disk space is allocated; the
+only change is to update the inode to reflect the larger file size. When read, holes are treated by
+the system as zero-valued bytes.
+Each disk drive has one or more subdivisions, or partitions. Each such partition can contain
+only one filestore, and a filestore never spans multiple partitions. While a filesystem may use
+multiple disk partitions to perform striping or RAID, the aggregation and management of the
+parts that make up the filesystem are managed by a lower-level driver in the kernel. The
+filesystem code always has the view of operating on a single contiguous partition.
+The filestore is responsible for the management of the space within its disk partition. Within
+that space, its responsibility is the creation, storage, retrieval, and removal of files. It operates in
+a flat namespace. When asked to create a new file, it allocates an inode for that file and returns
+the assigned number. The naming, access control, locking, and attribute manipulation for the
+file are all handled by the hierarchical filesystem-management layer above the filestore.
+The filestore also handles the allocation of new blocks to files as the latter grow. Simple
+filesystem implementations, such as those used by early microcomputer systems, allocate files
+contiguously, one after the next, until the files reach the end of the disk. As files are removed,
+holes occur. To reuse the freed space, the system must compact the disk to move all the free
+space to the end. Files can be created only one at a time; for the size of a file other than the final
+one on the disk to be increased, the file must be copied to the end and then expanded.
+As we saw in Section 9.2, each file in a filestore is described by an inode; the locations of its data
+blocks are given by the block pointers in its inode. Although the filestore may cluster the blocks
+of a file to improve I/O performance, the inode can reference blocks scattered anywhere
+throughout the partition. Thus, multiple files can be written simultaneously and all the disk
+space can be used without the need for compaction.
+The filestore implementation converts from the user abstraction of a file as an array of bytes to
+the structure imposed by the underlying physical medium. Consider a typical medium of a
+magnetic disk with fixed-size sectoring. Although the user may wish to write a single byte to a
+file, the disk supports reading and writing only in multiples of sectors. Here, the system must
+read in the sector containing the byte to be modified, replace the affected byte, and write the
+sector back to the disk. This operation—converting random access to an array of bytes to reads
+and writes of disk sectors—is called block I/O.

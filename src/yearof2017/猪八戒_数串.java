@@ -33,8 +33,8 @@ public class 猪八戒_数串 {
             int n = in.nextInt();
             List<Integer> list = new ArrayList<>();
             for (int i = 0; i < n; i++) {
-                list.add(in.nextInt());
-            }
+                    list.add(in.nextInt());
+                }
             Collections.sort(list, new Comparator<Integer>() {
 
                 @Override

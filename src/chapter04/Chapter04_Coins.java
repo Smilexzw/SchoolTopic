@@ -2,13 +2,14 @@ package chapter04;
 
 /**
  * @Auther: xuzhangwang
- * @Description: 给定数组arr， arr中的所有的值都为正数且不重复。 每个值代表一种面值的货币，每种面值的货币可以使用任意张
+ * @Description: 给定数组arr， arr中的所有的值都为正数且不重复。 每个值代表一种面值的货币
+ * ，每种面值的货币可以使用任意张
  * 在给定一个整数aim代表要找的钱数，求换钱有多少中方法。
  */
 public class Chapter04_Coins {
     public static void main(String[] args) {
-        int[] arr = {1, 5, 10, 20, 50, 100};
-        int aim = 5000;
+        int[] arr = {5, 10, 25, 1};
+        int aim = 15;
         int res = coins3(arr, aim);
         System.out.println(res);
     }
@@ -20,6 +21,7 @@ public class Chapter04_Coins {
         }
         return process1(arr, 0, aim);
     }
+
     // 使用的是暴力破解的方法
     public static int process1(int[] arr, int index, int aim) {
         int res = 0;
