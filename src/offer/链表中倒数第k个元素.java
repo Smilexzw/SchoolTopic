@@ -12,8 +12,8 @@ public class 链表中倒数第k个元素 {
         node1.next = node2;
         node2.next = node3;
         node3.next = null;
-        ListNode res = FindKthToTail(node1, 4);
-        System.out.println(res.val);
+        ListNode res = FindKthToTail1(node1, 2);
+        ListNode.printListNode(res);
     }
 
     public static ListNode FindKthToTail(ListNode head, int k) {
@@ -33,5 +33,38 @@ public class 链表中倒数第k个元素 {
             }
             return cur.next;
         } else return null;
+    }
+
+
+    /**
+     * 求链表中倒数第k个结点
+     * @param head
+     * @param k
+     * @return
+     */
+    public static ListNode FindKthToTail1(ListNode head, int k) {
+        if (head == null || k < 0) return null;
+        ListNode pre = null;
+        ListNode next = null;
+        int n = 0;
+        while (head != null) {
+            n++;
+            next = head.next;
+            head.next = pre;
+            pre = head;
+            head = next;
+        }
+        if (k > n) {
+            return null;
+        }
+        head = pre;
+        while (head != null) {
+            if (--k == 0) {
+                break;
+            }
+            head = head.next;
+        }
+        head.next = null;
+        return head;
     }
 }

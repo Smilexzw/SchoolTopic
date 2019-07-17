@@ -27,12 +27,12 @@ public class 分别使用递归与非递归实现二叉树先序中序后序遍�
 //        posOrderRecur(node1);
 
         // =============================== 非递归
-        orderRecur(node1);
-        preOrderUnRecur(node1);
+//        orderRecur(node1);
+//        preOrderUnRecur(node1);
 //        System.out.println();
         inOrderUnRecur(node1);
 
-        posOrderUnRecur(node1);
+//        posOrderUnRecur(node1);
 
     }
 
