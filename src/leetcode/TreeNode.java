@@ -9,8 +9,8 @@ import java.util.Queue;
  */
 public class TreeNode {
     int val;
-    leetcode.TreeNode left;
-    leetcode.TreeNode right;
+    TreeNode left;
+    TreeNode right;
 
     TreeNode(int x) {
         val = x;

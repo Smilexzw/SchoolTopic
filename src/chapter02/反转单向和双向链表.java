@@ -46,16 +46,3 @@ public class 反转单向和双向链表 {
 
 
 }
-class Node {
-    public int value;
-    public Node next;
-
-    public Node(int data) {
-        this.value = data;
-    }
-
-    public Node(int data, Node next) {
-        this.value = data;
-        this.next = next;
-    }
-}

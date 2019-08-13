@@ -9,7 +9,7 @@ public class 数组中的逆序对 {
 
     private static int count = 0;
     public static void main(String[] args) {
-        int[] arr = {7,5,6,4};
+        int[] arr = {1,2,3,4,5,6,7,0};
         int res = InversePairs1(arr);
         System.out.println(res);
     }

@@ -14,7 +14,7 @@ public class 整数中出现1的个数 {
         int res = NumberOf1Between1AndN_Solution(n);
         System.out.println(res);
         long end = System.currentTimeMillis();
-        System.out.println(end - start);
+        System.out.println((end - start) + "ms");
     }
 
     public static int NumberOf1Between1AndN_Solution(int n) {

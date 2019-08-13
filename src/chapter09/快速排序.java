@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 public class 快速排序 {
     public static void main(String[] args) {
-        int[] arr = {9, 2, 1, 5, 7, 8, 5, 3, 2, 1, 2, 5};
+        int[] arr = {9, 2, 1, 5, 7, 8, 5, 3, 2, 5};
         quicksort(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
     }

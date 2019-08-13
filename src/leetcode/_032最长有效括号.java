@@ -1,5 +1,6 @@
 package leetcode;
 
+import java.util.Map;
 import java.util.Stack;
 
 /**
@@ -21,32 +22,31 @@ import java.util.Stack;
 public class _032最长有效括号 {
     public static void main(String[] args) {
         // 使用栈
-        String s = "";
+        String s = "((())))";
         int res = longestValidParentheses(s);
         System.out.println(res);
     }
 
     public static int longestValidParentheses(String s) {
-        if (s == null || s == "") return 0;
-        int max = -1;
-        int start = 0;
         Stack<Integer> stack = new Stack<>();
+        int res = 0;
+        int start = -1;
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(') {
                 stack.push(i);
             } else {
                 if (stack.isEmpty()) {
-                    start = i + 1;
+                    start = i;
                 } else {
                     stack.pop();
                     if (stack.isEmpty()) {
-                        max = Math.max(max, i - start + 1);
+                        res = Math.max(res, i - start);
                     } else {
-                        max = Math.max(max, i - stack.peek());
+                        res = Math.max(res, i - stack.peek());
                     }
                 }
             }
         }
-        return max;
+        return res;
     }
 }

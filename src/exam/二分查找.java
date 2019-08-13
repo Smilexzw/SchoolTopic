@@ -6,27 +6,38 @@ package exam;
  */
 public class 二分查找 {
     public static void main(String[] args) {
-        int[] data = {1, 2, 2, 4, 5, 6, 6, 7, 8, 9, 9 ,10};
-        int tmp = BinarySearchMax(data, 2);
-        System.out.println(tmp);
+        int[] data = {1, 3, 5, 6};
+        int target = 5;
+        int res = binarySearch(data, target);
+        System.out.println(res);
     }
 
-    static int BinarySearchMax(int[] data, int target) {
+    /**
+     * 二分搜索target插入的位置,  假设数组中无重复数据
+     * @param data
+     * @param target
+     * @return
+     */
+    static int binarySearch(int[] data, int target) {
+        int len = data.length;
+        if (target < data[0]) {
+            return 0;
+        }
+        if (target > data[len - 1]) {
+            return len;
+        }
         int left = 0;
-        int right = data.length;
+        int right = len - 1;
         while (left <= right) {
-            int mid = (left + right) / 2;
-            int tmp = data[mid];
-            if (tmp <= target) {
+            int mid = (right - left) / 2 + left;
+            if (data[mid] > target) {
+                right = mid - 1;
+            } else if (target > data[mid]){
                 left = mid + 1;
             } else {
-                right = mid - 1;
+                return mid;
             }
         }
-        if (data[right] == target)
-            return right;
-        return -1;
+        return left;
     }
-
-
 }

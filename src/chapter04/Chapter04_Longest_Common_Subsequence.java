@@ -1,5 +1,7 @@
 package chapter04;
 
+import java.util.Scanner;
+
 /**
  * @Auther: xuzhangwang
  * @Title: 最长公共子序列
@@ -7,8 +9,9 @@ package chapter04;
  */
 public class Chapter04_Longest_Common_Subsequence {
     public static void main(String[] args) {
-        String str1 = "215364897";
-        String str2 = "123456789";
+        Scanner sc = new Scanner(System.in);
+        String str1 = sc.nextLine();
+        String str2 = sc.nextLine();
         String common = lcse(str1, str2);
         System.out.println(common);
     }

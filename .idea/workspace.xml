@@ -1,102 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf338f4b-e64b-4695-8960-01f95077304e" name="Default" comment="组合总和 - 回溯（重点掌握）">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0702/Main1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0702/Main2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0702/Main3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0702/Main4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0702/Main5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0709/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0710/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_515/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_702/Code6.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_702/万万没想到之抓捕孔连顺.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_702/万万没想到之聪明的编辑.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_702/特证提取.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_702/雀魂启动.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/basic/Rebot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/basic/reflect/Rebot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/basic/reflect/ReflectSimple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter03/根据后序数组判断是否为二叉搜索树.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/ListNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/RBTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/RBTreeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/二分查找.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/二叉树的前序中序后序遍历的递归与非递归版本.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/数组的快速排序.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/替换双引号为单引号.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/链表问题解决.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/Trie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/TrieTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_023合并k个链表.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_024两两交换链表中的值.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_028实现strStr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_029两数相除.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_030串联所有单词的字串.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_031下一个排列.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_032最长有效括号.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_033搜索旋转数组排序数组.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_035搜索插入位置.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_036有效的数独.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_038报数.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_043字符串相乘.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_048旋转图像.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_059螺旋矩阵II.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_092反转链表II.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_094二叉树的中序遍历.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_098判断一个树是否为二叉搜索树BST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_100相同的树.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_101对称二叉树.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_103二叉树的锯齿遍历.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_110判断一棵树是否为平衡而二叉树.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_112路径之和二叉树.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_113二叉树路径之和II.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_114二叉树展开为链表.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_118杨辉三角.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_124e二叉树的最大路径和.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_128最长连续序列.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_141环形链表.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_142环形链表II.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_143重排链表.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_144二叉树的前序遍历.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_145二叉树的后续遍历.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_147对链表进行插入排序.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_148链表快速排序.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_148链表的归并排序.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_206反转链表.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_590N叉树的后续遍历.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/Zig方式打印二叉树.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/二叉树中的下一个结点.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/删除链表中重复的结点.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/和为S的连续正序列.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/把字符串转换为整数.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/数字在排序数组中出现次数.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/数组中出现超过一般的数目.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/数组中只出现一次的数字.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/数组中的逆序对.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/整数中出现1的个数.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/最小的K个数.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/构建乘机数组.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/表示数值的字符串.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tree/RBTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/year2018/字节_最大的点.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter03/分别使用递归与非递归实现二叉树先序中序后序遍历.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter03/分别使用递归与非递归实现二叉树先序中序后序遍历.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/leetcode/ListNode.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/leetcode/ListNode.class" />
+    <list default="true" id="cf338f4b-e64b-4695-8960-01f95077304e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0803/Code1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0803/Code2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0803/Code3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0803/Code4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0803/Demo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0810/Main1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0810/Main2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0810/Main3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0810/Main4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_316/TestMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter02/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter02/TestNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter04/换钱的方法数.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/JDK动态代理案例.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/LRUCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/PriorityQueueTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/TreeMapTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/排序组合红黑球.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/海岛面积.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/CompareTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/FinalizeEscapeGC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/LambadaTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/LocalDateExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/ShortestPath.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/SoftReferenceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/StrongReferenceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/TestClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/WeakReferenceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/test1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jvm/GenericTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_013二叉树的锯齿形层次遍历.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_049字母异位词分组.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_050Powxn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_056合并区间.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_057插入区间.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_061循环链表.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_071Unix简化路劲.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_073矩阵置零.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_081搜索旋转排序数组II.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_089格雷编码.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_127单词接龙.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_129求根到叶子节点数字之和.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_130包围区域.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_139单词拆分.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_146LRU缓存机制.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_146LRU缓存机制使用LinkedHashMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_153寻找旋转排列数组中的最小值.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_162寻找峰值.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_169相交链表.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_190颠倒二进制位.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_191位1的个数.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_207课程表_BFS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_210课程表II.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_222完全二叉树的节点个数.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_230二叉搜索树中第K小的元素.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_231二次幂.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_235二叉搜索数的最近公共祖先.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_278第一个错误的版本.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_286墙于门.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_292Nim博弈.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_300最长上升子序列.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_315计算右侧小于当前元素的个数.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_341前k个高频元素.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_344反转字符串.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_392判断子序列.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_463岛屿的周长.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_494目标和.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_547朋友圈.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_692前k个高频单词.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_695岛屿的最大面积.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_743网络延迟.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_787k次中转最便宜的航班.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/两个链表的第一个交点.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thread/DeadLockDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thread/MultiThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thread/Singleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thread/SynchroizedDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thread/ThreadLocalExaple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2017/去哪儿_酒店评分.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/_网易安置路灯.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/_网易矩阵重叠.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/网易_俄罗斯方块.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/网易_塔.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/网易_数对.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/网易_牛牛的闹钟.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/网易_表达式求值.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/网易_被3整除.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳_二进制下表示1的个数.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳_加密技术.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳_朋友圈.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳_模拟题目水仙花.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳_求数列的和.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳_表达式.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳找房_填方格.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳找房_最少按键次数.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳找房_生日派对.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳找房_美丽的数.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳找房_钱币问题.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/迷路的牛牛.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/code/二叉树的前序中序后序遍历的递归与非递归版本.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter02/Node.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter02/Node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter04/Chapter04_Longest_Common_Subsequence.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter04/Chapter04_Longest_Common_Subsequence.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter04/Chapter04_MinCoins.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter04/Chapter04_MinCoins.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter09/快速排序.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter09/快速排序.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/exam/二分查找.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/exam/二分查找.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/leetcode/TreeNode.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/leetcode/TreeNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/leetcode/_021.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/leetcode/_021.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/offer/ListNode.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/offer/ListNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/offer/链表中倒数第k个元素.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/offer/链表中倒数第k个元素.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code_Interview_Guide.iml" afterPath="$PROJECT_DIR$/Code_Interview_Guide.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter03/分别使用递归与非递归实现二叉树先序中序后序遍历.java" afterPath="$PROJECT_DIR$/src/chapter03/分别使用递归与非递归实现二叉树先序中序后序遍历.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter02/反转单向和双向链表.java" afterPath="$PROJECT_DIR$/src/chapter02/反转单向和双向链表.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter04/Chapter04_Longest_Common_Subsequence.java" afterPath="$PROJECT_DIR$/src/chapter04/Chapter04_Longest_Common_Subsequence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter04/Chapter04_MinCoins.java" afterPath="$PROJECT_DIR$/src/chapter04/Chapter04_MinCoins.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter09/快速排序.java" afterPath="$PROJECT_DIR$/src/chapter09/快速排序.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exam/二分查找.java" afterPath="$PROJECT_DIR$/src/exam/二分查找.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/TreeNode.java" afterPath="$PROJECT_DIR$/src/leetcode/TreeNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/_021.java" afterPath="$PROJECT_DIR$/src/leetcode/_021.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/_1030.java" afterPath="$PROJECT_DIR$/src/leetcode/_1030.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/offer/ListNode.java" afterPath="$PROJECT_DIR$/src/offer/ListNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/offer/链表中倒数第k个元素.java" afterPath="$PROJECT_DIR$/src/offer/链表中倒数第k个元素.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/_032最长有效括号.java" afterPath="$PROJECT_DIR$/src/leetcode/_032最长有效括号.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/_038报数.java" afterPath="$PROJECT_DIR$/src/leetcode/_038报数.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/offer/数组中的逆序对.java" afterPath="$PROJECT_DIR$/src/offer/数组中的逆序对.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/offer/整数中出现1的个数.java" afterPath="$PROJECT_DIR$/src/offer/整数中出现1的个数.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,8 +138,8 @@
     <SUITE FILE_PATH="coverage/Code_Interview_Guide$Code3.coverage" NAME="Code3舍入 Coverage Results" MODIFIED="1555233264571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>code.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Code_Interview_Guide$_.coverage" NAME="拼多多_大整数相乘 Coverage Results" MODIFIED="1558336237796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>year2018.*</FILTER>
+    <SUITE FILE_PATH="coverage/Code_Interview_Guide$_.coverage" NAME="网易_塔 Coverage Results" MODIFIED="1564025576102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>yearof2019.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Code_Interview_Guide$_105.coverage" NAME="_105从前序与中序遍历序列构造二叉树 Coverage Results" MODIFIED="1555379749925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.*</FILTER>
@@ -156,7 +178,31 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="_315计算右侧小于当前元素的个数.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/_315计算右侧小于当前元素的个数.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_392判断子序列.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/_392判断子序列.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="41" column="9" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="41" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -169,6 +215,16 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ThreadLocal</find>
+      <find>add</find>
+      <find>javacode.Node</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Node</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -180,57 +236,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tree/RBNode.java" />
-        <option value="$PROJECT_DIR$/src/code/RBTree.java" />
-        <option value="$PROJECT_DIR$/src/code/RBTreeTest.java" />
-        <option value="$PROJECT_DIR$/src/tree/RBTree.java" />
-        <option value="$PROJECT_DIR$/src/_515/Test.java" />
-        <option value="$PROJECT_DIR$/src/offer/数组中出现超过一般的数目.java" />
-        <option value="$PROJECT_DIR$/src/offer/最小的K个数.java" />
-        <option value="$PROJECT_DIR$/src/offer/整数中出现1的个数.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_547朋友圈.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_494目标和.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_743网络延迟.java" />
+        <option value="$PROJECT_DIR$/src/exam/二分查找.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_153寻找旋转排列数组中的最小值.java" />
+        <option value="$PROJECT_DIR$/src/code/排序组合红黑求.java" />
+        <option value="$PROJECT_DIR$/src/code/排序组合红黑球.java" />
+        <option value="$PROJECT_DIR$/src/code/海岛面积.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_162寻找峰值.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_081搜索旋转排序数组II.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_190颠倒二进制位.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_191位1的个数.java" />
         <option value="$PROJECT_DIR$/src/offer/数组中的逆序对.java" />
-        <option value="$PROJECT_DIR$/src/offer/数字在排序数组中出现次数.java" />
-        <option value="$PROJECT_DIR$/src/offer/数组中只出现一次的数字.java" />
-        <option value="$PROJECT_DIR$/src/offer/和为S的连续正序列.java" />
-        <option value="$PROJECT_DIR$/src/offer/表示数值的字符串.java" />
-        <option value="$PROJECT_DIR$/src/offer/把字符串转换为整数.java" />
-        <option value="$PROJECT_DIR$/src/_702/Code6.java" />
-        <option value="$PROJECT_DIR$/src/_702/雀魂启动.java" />
-        <option value="$PROJECT_DIR$/src/_702/特证提取.java" />
-        <option value="$PROJECT_DIR$/src/_702/万万没想到之聪明的编辑.java" />
-        <option value="$PROJECT_DIR$/src/_702/万万没想到之抓捕孔连顺.java" />
-        <option value="$PROJECT_DIR$/src/year2018/字节_最大的点.java" />
-        <option value="$PROJECT_DIR$/src/code/二分查找.java" />
-        <option value="$PROJECT_DIR$/src/_0702/Main1.java" />
-        <option value="$PROJECT_DIR$/src/_0702/Main2.java" />
-        <option value="$PROJECT_DIR$/src/_0702/Main3.java" />
-        <option value="$PROJECT_DIR$/src/_0702/Main5.java" />
-        <option value="$PROJECT_DIR$/src/offer/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/offer/删除链表中重复的结点.java" />
-        <option value="$PROJECT_DIR$/src/code/Node.java" />
-        <option value="$PROJECT_DIR$/src/code/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/code/链表问题解决.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/_1030.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/_092反转链表II.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/_147链表中插入数据.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/_147对链表进行插入排序.java" />
-        <option value="$PROJECT_DIR$/src/code/_148链表快速排序.java" />
-        <option value="$PROJECT_DIR$/src/code/数组的快速排序.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/_148链表快速排序.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/_021.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/_148链表的归并排序.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/_143重排链表.java" />
-        <option value="$PROJECT_DIR$/src/basic/Rebot.java" />
-        <option value="$PROJECT_DIR$/src/basic/reflect/Rebot.java" />
-        <option value="$PROJECT_DIR$/src/basic/reflect/ReflectSimple.java" />
-        <option value="$PROJECT_DIR$/src/code/二叉树的前序中序后序遍历的递归与非递归版本.java" />
-        <option value="$PROJECT_DIR$/src/offer/二叉树打印成为多行.java" />
-        <option value="$PROJECT_DIR$/src/offer/zig.java" />
-        <option value="$PROJECT_DIR$/src/offer/Zig方式打印二叉树.java" />
-        <option value="$PROJECT_DIR$/src/offer/二叉树中的下一个结点.java" />
-        <option value="$PROJECT_DIR$/src/offer/链表中倒数第k个元素.java" />
-        <option value="$PROJECT_DIR$/src/_0710/Main.java" />
-        <option value="$PROJECT_DIR$/src/offer/构建乘机数组.java" />
+        <option value="$PROJECT_DIR$/src/code/JDK动态代理案例.java" />
+        <option value="$PROJECT_DIR$/src/javacode/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/javacode/StrongReferenceTest.java" />
+        <option value="$PROJECT_DIR$/src/javacode/SoftReferenceTest.java" />
+        <option value="$PROJECT_DIR$/src/javacode/WeakReferenceTest.java" />
+        <option value="$PROJECT_DIR$/src/javacode/FinalizeEscapeGC.java" />
+        <option value="$PROJECT_DIR$/src/yearof2019/_网易安置路灯.java" />
+        <option value="$PROJECT_DIR$/src/yearof2019/_网易矩阵重叠.java" />
+        <option value="$PROJECT_DIR$/src/_408/Main2.java" />
+        <option value="$PROJECT_DIR$/src/_0803/Code1.java" />
+        <option value="$PROJECT_DIR$/src/_0803/Code2.java" />
+        <option value="$PROJECT_DIR$/src/_0803/Code3.java" />
+        <option value="$PROJECT_DIR$/src/_0803/Code4.java" />
+        <option value="$PROJECT_DIR$/src/chapter09/快速排序.java" />
+        <option value="$PROJECT_DIR$/src/_0803/Demo.java" />
+        <option value="$PROJECT_DIR$/src/chapter02/Node.java" />
+        <option value="$PROJECT_DIR$/src/chapter02/TestNode.java" />
+        <option value="$PROJECT_DIR$/src/_316/TestMap.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_127单词接龙.java" />
+        <option value="$PROJECT_DIR$/src/yearof2017/去哪儿_酒店评分.java" />
+        <option value="$PROJECT_DIR$/src/chapter04/换钱的方法数.java" />
+        <option value="$PROJECT_DIR$/src/chapter04/Chapter04_MinCoins.java" />
+        <option value="$PROJECT_DIR$/src/yearof2019/贝壳_求数列的和.java" />
+        <option value="$PROJECT_DIR$/src/yearof2019/贝壳_模拟题目水仙花.java" />
+        <option value="$PROJECT_DIR$/src/chapter04/Chapter04_Longest_Common_Subsequence.java" />
+        <option value="$PROJECT_DIR$/src/yearof2019/贝壳_加密技术.java" />
+        <option value="$PROJECT_DIR$/src/yearof2019/贝壳_表达式.java" />
+        <option value="$PROJECT_DIR$/src/yearof2019/贝壳_二进制下表示1的个数.java" />
+        <option value="$PROJECT_DIR$/src/yearof2019/贝壳_朋友圈.java" />
+        <option value="$PROJECT_DIR$/src/_0810/Main1.java" />
+        <option value="$PROJECT_DIR$/src/_0810/Main3.java" />
+        <option value="$PROJECT_DIR$/src/_0810/Main2.java" />
+        <option value="$PROJECT_DIR$/src/_0810/Main4.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_222完全二叉树的节点个数.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_300最长上升子序列.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_278第一个错误的版本.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_315计算右侧小于当前元素的个数.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/_392判断子序列.java" />
       </list>
     </option>
   </component>
@@ -246,7 +302,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
@@ -267,6 +323,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,33 +342,12 @@
               <item name="Code_Interview_Guide" type="b2602c69:ProjectViewProjectNode" />
               <item name="Code_Interview_Guide" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_0709" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Code_Interview_Guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Code_Interview_Guide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_0710" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Code_Interview_Guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Code_Interview_Guide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Code_Interview_Guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Code_Interview_Guide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,10 +355,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Code/Java算法/Code_Interview_Guide/src/leetcode/_148链表快速排序.java&#10;gcd&#9;PSI&#9;JAVA://chapter09.Cahpter09_gcd&#10;数独&#9;PSI&#9;JAVA://year2018.数独&#10;高精度&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Code/Java算法/Code_Interview_Guide/src/leetcode/_128最长连续序列.java&#10;最长&#9;FILE&#9;file://D:/Code/Java算法/Code_Interview_Guide/src/leetcode/_128最长连续序列.java&#10;岛屿&#9;PSI&#9;JAVA://code.岛屿的个数&#10;朋友&#9;PSI&#9;JAVA://leetcode._547朋友圈&#10;Coins&#9;FILE&#9;file://D:/Code/Java算法/Code_Interview_Guide/src/chapter04/Chapter04_MinCoins.java&#10;Quick&#9;PSI&#9;JAVA://chapter09.快速排序#quicksort&#10;unix&#9;PSI&#9;JAVA://leetcode._071Unix简化路劲&#10;linux&#9;PSI&#9;JAVA://sun.nio.cs.ext.EUC_JP_LINUX&#10;gcd&#9;PSI&#9;JAVA://chapter09.Cahpter09_gcd#gcd&#10;gkd&#9;null&#9;null&#10;1的&#9;PSI&#9;JAVA://offer.整数中出现1的个数&#10;出现&#9;PSI&#9;JAVA://offer.整数中出现1的个数&#10;数独&#9;PSI&#9;JAVA://year2018.数独&#10;高精度&#9;null&#9;null" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -359,224 +397,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="二叉树的前序中序后序遍历的递归与非递归版本" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application._392判断子序列">
+    <configuration name="Code2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="code.*" />
+          <option name="PATTERN" value="_0803.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="code.二叉树的前序中序后序遍历的递归与非递归版本" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code_Interview_Guide" />
-      <envs />
-    </configuration>
-    <configuration name="顺时针打印矩阵" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="offer.顺时针打印矩阵" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code_Interview_Guide" />
-      <envs />
-    </configuration>
-    <configuration name="求和公式" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="offer.求和公式" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code_Interview_Guide" />
-      <envs />
-    </configuration>
-    <configuration name="构建乘机数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="offer.构建乘机数组" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code_Interview_Guide" />
-      <envs />
-    </configuration>
-    <configuration name="不用加减乘除做加法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="offer.不用加减乘除做加法" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code_Interview_Guide" />
-      <envs />
-    </configuration>
-    <configuration name="数独" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="year2018.数独" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code_Interview_Guide" />
-      <envs />
-    </configuration>
-    <configuration name="二叉树打印成为多行" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="offer.二叉树打印成为多行" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code_Interview_Guide" />
-      <envs />
-    </configuration>
-    <configuration name="二叉树中的下一个结点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="offer.二叉树中的下一个结点" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code_Interview_Guide" />
-      <envs />
-    </configuration>
-    <configuration name="数字在排序数组中出现次数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="offer.数字在排序数组中出现次数" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code_Interview_Guide" />
-      <envs />
-    </configuration>
-    <configuration name="数组中只出现一次的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="offer.数组中只出现一次的数字" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code_Interview_Guide" />
-      <envs />
-    </configuration>
-    <configuration name="表示数值的字符串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="offer.表示数值的字符串" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code_Interview_Guide" />
-      <envs />
-    </configuration>
-    <configuration name="合并两个有序的链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="offer.合并两个有序的链表" />
+      <option name="MAIN_CLASS_NAME" value="_0803.Code2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -607,33 +436,14 @@
       <module name="Code_Interview_Guide" />
       <envs />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="_0710.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="_0710.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code_Interview_Guide" />
-      <envs />
-    </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="_0702.*" />
+          <option name="PATTERN" value="_0810.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="_0702.Main2" />
+      <option name="MAIN_CLASS_NAME" value="_0810.Main2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -645,14 +455,14 @@
       <module name="Code_Interview_Guide" />
       <envs />
     </configuration>
-    <configuration name="Zig方式打印二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="offer.*" />
+          <option name="PATTERN" value="_0810.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="offer.Zig方式打印二叉树" />
+      <option name="MAIN_CLASS_NAME" value="_0810.Main4" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -664,14 +474,14 @@
       <module name="Code_Interview_Guide" />
       <envs />
     </configuration>
-    <configuration name="京东_疯狂序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="year2018.*" />
+          <option name="PATTERN" value="chapter02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="year2018.京东_疯狂序列" />
+      <option name="MAIN_CLASS_NAME" value="chapter02.TestNode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -683,14 +493,14 @@
       <module name="Code_Interview_Guide" />
       <envs />
     </configuration>
-    <configuration name="搜狐_包裹运输" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="贝壳找房_生日派对" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="year2018.*" />
+          <option name="PATTERN" value="yearof2019.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="year2018.搜狐_包裹运输" />
+      <option name="MAIN_CLASS_NAME" value="yearof2019.贝壳找房_生日派对" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -702,14 +512,128 @@
       <module name="Code_Interview_Guide" />
       <envs />
     </configuration>
-    <configuration name="_021" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="网易_牛牛的闹钟" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="yearof2019.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetcode._021" />
+      <option name="MAIN_CLASS_NAME" value="yearof2019.网易_牛牛的闹钟" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Code_Interview_Guide" />
+      <envs />
+    </configuration>
+    <configuration name="网易_表达式求值" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="yearof2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="yearof2019.网易_表达式求值" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Code_Interview_Guide" />
+      <envs />
+    </configuration>
+    <configuration name="网易_塔" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="yearof2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="yearof2019.网易_塔" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Code_Interview_Guide" />
+      <envs />
+    </configuration>
+    <configuration name="_网易矩阵重叠" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="yearof2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="yearof2019._网易矩阵重叠" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Code_Interview_Guide" />
+      <envs />
+    </configuration>
+    <configuration name="贝壳找房_填方格" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="yearof2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="yearof2019.贝壳找房_填方格" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Code_Interview_Guide" />
+      <envs />
+    </configuration>
+    <configuration name="网易_塔" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="yearof2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="yearof2019.网易_塔" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Code_Interview_Guide" />
+      <envs />
+    </configuration>
+    <configuration name="贝壳找房_最少按键次数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="yearof2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="yearof2019.贝壳找房_最少按键次数" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -778,14 +702,109 @@
       <module name="Code_Interview_Guide" />
       <envs />
     </configuration>
-    <configuration name="搜狐_Unix路劲简化" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="_128最长连续序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="year2018.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="year2018.搜狐_Unix路劲简化" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._128最长连续序列" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Code_Interview_Guide" />
+      <envs />
+    </configuration>
+    <configuration name="_222完全二叉树的节点个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode._222完全二叉树的节点个数" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Code_Interview_Guide" />
+      <envs />
+    </configuration>
+    <configuration name="_300最长上升子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode._300最长上升子序列" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Code_Interview_Guide" />
+      <envs />
+    </configuration>
+    <configuration name="_315计算右侧小于当前元素的个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode._315计算右侧小于当前元素的个数" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Code_Interview_Guide" />
+      <envs />
+    </configuration>
+    <configuration name="_392判断子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode._392判断子序列" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Code_Interview_Guide" />
+      <envs />
+    </configuration>
+    <configuration name="_463岛屿的周长" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode._463岛屿的周长" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -812,37 +831,20 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="链表中倒数第k个元素" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="offer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="offer.链表中倒数第k个元素" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Code_Interview_Guide" />
-      <envs />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application._021" />
-      <item index="1" class="java.lang.String" itemvalue="Application.京东_疯狂序列" />
-      <item index="2" class="java.lang.String" itemvalue="Application.二叉树的前序中序后序遍历的递归与非递归版本" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Zig方式打印二叉树" />
-      <item index="4" class="java.lang.String" itemvalue="Application.链表中倒数第k个元素" />
+      <item index="0" class="java.lang.String" itemvalue="Application._128最长连续序列" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main4" />
+      <item index="2" class="java.lang.String" itemvalue="Application._300最长上升子序列" />
+      <item index="3" class="java.lang.String" itemvalue="Application._315计算右侧小于当前元素的个数" />
+      <item index="4" class="java.lang.String" itemvalue="Application._392判断子序列" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.链表中倒数第k个元素" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Zig方式打印二叉树" />
-        <item index="2" class="java.lang.String" itemvalue="Application.二叉树的前序中序后序遍历的递归与非递归版本" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application._392判断子序列" />
+        <item index="1" class="java.lang.String" itemvalue="Application._315计算右侧小于当前元素的个数" />
+        <item index="2" class="java.lang.String" itemvalue="Application._300最长上升子序列" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main4" />
+        <item index="4" class="java.lang.String" itemvalue="Application._128最长连续序列" />
       </list>
     </recent_temporary>
   </component>
@@ -953,14 +955,32 @@
       <workItem from="1562734312047" duration="10118000" />
       <workItem from="1562829768145" duration="1281000" />
       <workItem from="1563329220627" duration="1768000" />
-      <workItem from="1563345819506" duration="35000" />
-    </task>
-    <task id="LOCAL-00108" summary="搜索二维矩阵">
-      <created>1554298816190</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1554298816190</updated>
+      <workItem from="1563345819506" duration="11956000" />
+      <workItem from="1563409309136" duration="79000" />
+      <workItem from="1563409476631" duration="5142000" />
+      <workItem from="1563506621085" duration="1023000" />
+      <workItem from="1563522359054" duration="629000" />
+      <workItem from="1563786935841" duration="9370000" />
+      <workItem from="1563939410851" duration="11244000" />
+      <workItem from="1564014111598" duration="629000" />
+      <workItem from="1564021361186" duration="5820000" />
+      <workItem from="1564040090172" duration="4457000" />
+      <workItem from="1564370957730" duration="53960000" />
+      <workItem from="1564533867766" duration="5136000" />
+      <workItem from="1564542774679" duration="15736000" />
+      <workItem from="1564619465560" duration="1949000" />
+      <workItem from="1564675242130" duration="5000" />
+      <workItem from="1564705294973" duration="4438000" />
+      <workItem from="1564714196195" duration="2214000" />
+      <workItem from="1564801607565" duration="3510000" />
+      <workItem from="1564812160171" duration="16473000" />
+      <workItem from="1565105404010" duration="694000" />
+      <workItem from="1565179121069" duration="1506000" />
+      <workItem from="1565270315894" duration="5396000" />
+      <workItem from="1565419275501" duration="20164000" />
+      <workItem from="1565527033197" duration="1120000" />
+      <workItem from="1565612664486" duration="1393000" />
+      <workItem from="1565656792884" duration="3620000" />
     </task>
     <task id="LOCAL-00109" summary="最小覆盖字串-滑动窗口">
       <created>1554298851308</created>
@@ -1298,7 +1318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556874616169</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="汇总提交">
+      <created>1563345904558</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1563345904559</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1331,7 +1358,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="889856000" />
+    <option name="totallyTimeSpent" value="1077484000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1343,59 +1370,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32104638" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43166286" sideWeight="0.5107181" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.47457626" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41935483" sideWeight="0.4892819" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27562642" sideWeight="0.5128617" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.47457626" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44770858" sideWeight="0.48713827" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7403189" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5" sideWeight="0.49242425" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.49544418" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57522124" sideWeight="0.49242425" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.49544418" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.4679803" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44419134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39717978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25912017" sideWeight="0.50757575" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32346243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5320197" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257403" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32801822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32346243" sideWeight="0.50429183" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.47457626" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31093395" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5254237" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28885317" sideWeight="0.49242425" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.49544418" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257403" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.48633257" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37927106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25912017" sideWeight="0.50757575" order="4" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1404,7 +1407,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="组合总和II - 回溯 + 去重（重点掌握）" />
     <MESSAGE value="分糖果 - 重点" />
     <MESSAGE value="乘积最大子序列 - 必须掌握" />
     <MESSAGE value="零钱兑换 - dp（重点掌握）" />
@@ -1429,7 +1431,8 @@
     <MESSAGE value="水题目" />
     <MESSAGE value="最长公共字串的变体-在每一个位置进行数据的&#10;切割" />
     <MESSAGE value="子集" />
-    <option name="LAST_COMMIT_MESSAGE" value="子集" />
+    <MESSAGE value="汇总提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="汇总提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1643,12 +1646,6 @@
           <line>38</line>
           <properties />
           <option name="timeStamp" value="111" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/exam/二分查找.java</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/exam/头条_用户喜好.java</url>
@@ -2419,7 +2416,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/_032最长有效括号.java</url>
-          <line>24</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="340" />
         </line-breakpoint>
@@ -2633,6 +2630,210 @@
           <properties />
           <option name="timeStamp" value="387" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/code/PriorityQueueTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_341前k个高频元素.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_692前k个高频单词.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/yearof2019/贝壳找房_最少按键次数.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/yearof2019/贝壳找房_钱币问题.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/yearof2019/网易_牛牛的闹钟.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_146LRU缓存机制.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/code/LRUCache.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_056合并区间.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_050Powxn.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_013二叉树的锯齿形层次遍历.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_127单词接龙.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_207课程表_BFS.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_139单词拆分.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_286墙于门.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_695岛屿的最大面积.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javacode/ShortestPath.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_494目标和.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/code/海岛面积.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_081搜索旋转排序数组II.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/yearof2019/_网易矩阵重叠.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_0803/Code1.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_0803/Code4.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chapter09/快速排序.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_0803/Demo.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chapter04/换钱的方法数.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/yearof2019/贝壳_求数列的和.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chapter04/Chapter04_Longest_Common_Subsequence.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chapter04/Chapter04_Longest_Common_Subsequence.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_392判断子序列.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/yearof2019/贝壳_朋友圈.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_0810/Main2.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_0810/Main4.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/_315计算右侧小于当前元素的个数.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/exam/Demo.java</url>
           <line>71</line>
@@ -2649,8 +2850,16 @@
           </properties>
           <option name="timeStamp" value="375" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/yearof2017/去哪儿_酒店评分.java</url>
+          <line>66</line>
+          <properties method="compare">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="432" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="388" />
+      <option name="time" value="445" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2659,389 +2868,399 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/code/BFS.java">
+    <entry file="file://$PROJECT_DIR$/src/year2018/网易_操作序列.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="-437">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/荷兰国旗.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/高精度乘法.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/替换双引号为单引号.java">
+    <entry file="file://$PROJECT_DIR$/src/year2018/网易_独立的小易.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/岛屿的个数.java">
+    <entry file="file://$PROJECT_DIR$/src/year2018/网易_数列重排.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/去掉字符串中的连续的ac和b.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="274">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/全组合.java">
+    <entry file="jar://E:/JavaJDK/jdk1.8.0_131/jre/lib/charsets.jar!/sun/nio/cs/ext/EUC_JP_LINUX.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="110">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/test.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/_071Unix简化路劲.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/_12选择5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/Bitmap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
+        <state relative-caret-position="-41">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/Code3舍入.java">
+    <entry file="file://$PROJECT_DIR$/src/year2018/搜狐_Unix路劲简化.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="154">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_039.java">
+    <entry file="file://$PROJECT_DIR$/src/_0803/Code1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        <state relative-caret-position="314">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/二分查找.java">
+    <entry file="file://$PROJECT_DIR$/src/_0803/Code3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="302">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter09/Cahpter09_gcd.java">
+    <entry file="file://$PROJECT_DIR$/src/_0803/Code2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="368">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_702/万万没想到之聪明的编辑.java">
+    <entry file="jar://E:/JavaJDK/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="200">
+          <caret line="144" column="5" lean-forward="true" selection-start-line="144" selection-start-column="5" selection-end-line="144" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter09/快速排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0803/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_702/万万没想到之抓捕孔连顺.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter02/反转单向和双向链表.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/删除链表中重复的结点.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        <state relative-caret-position="1056">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_0702/Main1.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter02/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_0702/Main2.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter02/TestNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_0702/Main3.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter03/先序中序数组结合重构二叉树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_0702/Main4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_0702/Main5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/RBTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6072">
-          <caret line="296" column="16" lean-forward="false" selection-start-line="296" selection-start-column="16" selection-end-line="296" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="132" column="17" lean-forward="false" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/链表问题解决.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_092反转链表II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="198">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_147对链表进行插入排序.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter03/分别使用递归与非递归实现二叉树先序中序后序遍历.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="22">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="128" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/数组的快速排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_088.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1119">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_148链表快速排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_148链表的归并排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="26" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_1030.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2750">
-          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding>
-            <element signature="e#2916#2917#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_021.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1606">
-          <caret line="74" column="37" lean-forward="false" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_143重排链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/Rebot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/reflect/Rebot.java">
+    <entry file="file://$PROJECT_DIR$/src/_316/eng.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/reflect/ReflectSimple.java">
+    <entry file="file://$PROJECT_DIR$/src/_316/Code4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="176">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/JavaJDK/jdk1.8.0_131/src.zip!/java/lang/reflect/Method.java">
+    <entry file="file://$PROJECT_DIR$/src/_316/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="483" column="18" lean-forward="false" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_0709/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/_316/TestMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="418">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code/二叉树的前序中序后序遍历的递归与非递归版本.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/_127单词接龙.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="287">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/_101对称二叉树.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/判断一个树是否是平衡二叉树.java">
+    <entry file="file://$PROJECT_DIR$/src/yearof2017/去哪儿_酒店价格.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
-          <caret line="28" column="27" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="28" selection-end-column="27" />
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/zig.java" />
-    <entry file="file://$PROJECT_DIR$/src/offer/二叉树打印成为多行.java">
+    <entry file="file://$PROJECT_DIR$/src/yearof2017/去哪儿_酒店评分.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="40" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="31" selection-end-column="40" />
+        <state relative-caret-position="680">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter04/换钱的方法数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter04/Chapter04_Coins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter04/Chapter04_MinCoins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter04/Chapter04_JumpGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter04/Chapter04_The_Minimum_Path_Of_The_Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1015">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yearof2019/贝壳_模拟题目水仙花.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yearof2019/贝壳_求数列的和.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JavaJDK/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="976" column="0" lean-forward="false" selection-start-line="976" selection-start-column="0" selection-end-line="976" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter04/Chapter04_Longest_Common_Subsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yearof2019/贝壳_加密技术.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yearof2019/贝壳_表达式.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yearof2019/贝壳_二进制下表示1的个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/_547朋友圈.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code/岛屿的个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="57" column="28" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="57" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yearof2019/贝壳_朋友圈.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/二叉树中的下一个结点.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/_128最长连续序列.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="-418">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/链表中倒数第k个元素.java">
+    <entry file="file://$PROJECT_DIR$/src/_0810/Main1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="66" column="25" lean-forward="false" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="25" />
+        <state relative-caret-position="440">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0810/Main4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_0710/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/_0810/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="902">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/构建乘机数组.java">
+    <entry file="file://$PROJECT_DIR$/src/_0810/Main3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
-          <caret line="43" column="17" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="43" selection-end-column="17" />
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/_300最长上升子序列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="33" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/_222完全二叉树的节点个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="65" column="20" lean-forward="false" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/_278第一个错误的版本.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0702/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_0803/Code4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/Zig方式打印二叉树.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/_315计算右侧小于当前元素的个数.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="352">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/_392判断子序列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="41" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -3052,10 +3271,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
