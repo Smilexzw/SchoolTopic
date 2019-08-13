@@ -1,0 +1,3 @@
+# 忽略.idea文件和out文件
+.idea
+out

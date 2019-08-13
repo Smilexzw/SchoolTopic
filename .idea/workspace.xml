@@ -2,123 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf338f4b-e64b-4695-8960-01f95077304e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0803/Code1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0803/Code2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0803/Code3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0803/Code4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0803/Demo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0810/Main1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0810/Main2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0810/Main3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_0810/Main4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_316/TestMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter02/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter02/TestNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter04/换钱的方法数.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/JDK动态代理案例.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/LRUCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/PriorityQueueTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/TreeMapTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/排序组合红黑球.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/code/海岛面积.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/CompareTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/FinalizeEscapeGC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/LambadaTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/LocalDateExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/ShortestPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/SoftReferenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/StrongReferenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/TestClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/WeakReferenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javacode/test1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jvm/GenericTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_013二叉树的锯齿形层次遍历.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_049字母异位词分组.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_050Powxn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_056合并区间.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_057插入区间.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_061循环链表.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_071Unix简化路劲.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_073矩阵置零.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_081搜索旋转排序数组II.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_089格雷编码.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_127单词接龙.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_129求根到叶子节点数字之和.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_130包围区域.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_139单词拆分.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_146LRU缓存机制.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_146LRU缓存机制使用LinkedHashMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_153寻找旋转排列数组中的最小值.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_162寻找峰值.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_169相交链表.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_190颠倒二进制位.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_191位1的个数.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_207课程表_BFS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_210课程表II.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_222完全二叉树的节点个数.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_230二叉搜索树中第K小的元素.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_231二次幂.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_235二叉搜索数的最近公共祖先.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_278第一个错误的版本.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_286墙于门.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_292Nim博弈.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_300最长上升子序列.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_315计算右侧小于当前元素的个数.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_341前k个高频元素.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_344反转字符串.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_392判断子序列.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_463岛屿的周长.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_494目标和.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_547朋友圈.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_692前k个高频单词.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_695岛屿的最大面积.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_743网络延迟.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/_787k次中转最便宜的航班.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/offer/两个链表的第一个交点.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thread/DeadLockDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thread/MultiThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thread/Singleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thread/SynchroizedDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thread/ThreadLocalExaple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2017/去哪儿_酒店评分.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/_网易安置路灯.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/_网易矩阵重叠.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/网易_俄罗斯方块.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/网易_塔.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/网易_数对.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/网易_牛牛的闹钟.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/网易_表达式求值.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/网易_被3整除.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳_二进制下表示1的个数.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳_加密技术.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳_朋友圈.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳_模拟题目水仙花.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳_求数列的和.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳_表达式.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳找房_填方格.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳找房_最少按键次数.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳找房_生日派对.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳找房_美丽的数.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/贝壳找房_钱币问题.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/yearof2019/迷路的牛牛.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/code/二叉树的前序中序后序遍历的递归与非递归版本.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter02/Node.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter02/Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter04/Chapter04_Longest_Common_Subsequence.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter04/Chapter04_Longest_Common_Subsequence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter04/Chapter04_MinCoins.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter04/Chapter04_MinCoins.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter09/快速排序.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/chapter09/快速排序.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/exam/二分查找.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/exam/二分查找.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Code_Interview_Guide/leetcode/TreeNode.class" afterPath="$PROJECT_DIR$/out/production/Code_Interview_Guide/leetcode/TreeNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter02/反转单向和双向链表.java" afterPath="$PROJECT_DIR$/src/chapter02/反转单向和双向链表.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter04/Chapter04_Longest_Common_Subsequence.java" afterPath="$PROJECT_DIR$/src/chapter04/Chapter04_Longest_Common_Subsequence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter04/Chapter04_MinCoins.java" afterPath="$PROJECT_DIR$/src/chapter04/Chapter04_MinCoins.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter09/快速排序.java" afterPath="$PROJECT_DIR$/src/chapter09/快速排序.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exam/二分查找.java" afterPath="$PROJECT_DIR$/src/exam/二分查找.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/TreeNode.java" afterPath="$PROJECT_DIR$/src/leetcode/TreeNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/_032最长有效括号.java" afterPath="$PROJECT_DIR$/src/leetcode/_032最长有效括号.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/_038报数.java" afterPath="$PROJECT_DIR$/src/leetcode/_038报数.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/offer/数组中的逆序对.java" afterPath="$PROJECT_DIR$/src/offer/数组中的逆序对.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/offer/整数中出现1的个数.java" afterPath="$PROJECT_DIR$/src/offer/整数中出现1的个数.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -192,11 +77,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_392判断子序列.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_392判断子序列.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/_392判断子序列.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="597">
               <caret line="41" column="9" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="41" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -236,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/_547朋友圈.java" />
         <option value="$PROJECT_DIR$/src/leetcode/_494目标和.java" />
         <option value="$PROJECT_DIR$/src/leetcode/_743网络延迟.java" />
         <option value="$PROJECT_DIR$/src/exam/二分查找.java" />
@@ -287,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/_278第一个错误的版本.java" />
         <option value="$PROJECT_DIR$/src/leetcode/_315计算右侧小于当前元素的个数.java" />
         <option value="$PROJECT_DIR$/src/leetcode/_392判断子序列.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -302,7 +197,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
@@ -337,12 +232,6 @@
               <item name="Code_Interview_Guide" type="b2602c69:ProjectViewProjectNode" />
               <item name="Code_Interview_Guide" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Code_Interview_Guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Code_Interview_Guide" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -980,7 +869,7 @@
       <workItem from="1565419275501" duration="20164000" />
       <workItem from="1565527033197" duration="1120000" />
       <workItem from="1565612664486" duration="1393000" />
-      <workItem from="1565656792884" duration="3620000" />
+      <workItem from="1565656792884" duration="3983000" />
     </task>
     <task id="LOCAL-00109" summary="最小覆盖字串-滑动窗口">
       <created>1554298851308</created>
@@ -1358,7 +1247,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1077484000" />
+    <option name="totallyTimeSpent" value="1077847000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1370,7 +1259,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1379,11 +1268,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27562642" sideWeight="0.5128617" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.47457626" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44770858" sideWeight="0.48713827" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7403189" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44770858" sideWeight="0.48713827" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4253819" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57522124" sideWeight="0.49242425" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26098606" sideWeight="0.49242425" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.49544418" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.4679803" order="1" side_tool="false" content_ui="tabs" />
@@ -2868,14 +2757,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/year2018/网易_操作序列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/year2018/网易_独立的小易.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -3259,8 +3140,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/_392判断子序列.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="597">
           <caret line="41" column="9" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="41" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
